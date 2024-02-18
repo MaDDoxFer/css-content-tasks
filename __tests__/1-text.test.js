@@ -14,8 +14,7 @@ const settings = {
 
 let page;
 
-test.beforeAll(async ({ browser }, testInfo) => {
-  testInfo.snapshotPath = (name) => `${testInfo.file}-snapshots/${name}`;
+test.beforeAll(async ({ browser }) => {
   page = await browser.newPage();
   await page.goto("/1-text.html");
   await page.setViewportSize(settings.viewport);

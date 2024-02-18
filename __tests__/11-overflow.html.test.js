@@ -14,8 +14,7 @@ const settings = {
 
 let page;
 
-test.beforeEach(async ({ browser }, testInfo) => {
-  testInfo.snapshotPath = (name) => `${testInfo.file}-snapshots/${name}`;
+test.beforeEach(async ({ browser }) => {
   page = await browser.newPage();
   await page.goto("/11-overflow.html");
   await page.setViewportSize(settings.viewport);
