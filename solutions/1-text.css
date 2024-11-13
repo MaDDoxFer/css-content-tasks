@@ -2,12 +2,74 @@ body {
   width: 700px;
   margin: 0 auto;
   padding: 100px 0;
-
   font-family: serif;
 
   background-color: #eee;
 }
+/* Заголовки */
+h1, h2, h3, h4 {
+  font-weight: normal; /* Нормальное начертание */
+  text-align: center; /* Выравнивание по центру */
+  color: #646464; /* Цвет текста */
+}
+hr {
+  color: #646464;
+}
+h1 {
+  font-weight: bold; /* Жирное начертание */
+  font-size: 70px; /* Размер шрифта 70 пикселей */
+}
 
-/* BEGIN (write your solution here) */
+h2 {
+  font-size: 40px; /* Размер шрифта 40 пикселей */
+}
 
-/* END */
+h3 {
+  font-size: 20px; /* Размер шрифта 20 пикселей */
+}
+
+h4 {
+  font-size: 18px; /* Размер шрифта 18 пикселей */
+}
+
+/* Параграфы */
+p {
+  text-align: justify; /* Выравнивание по ширине */
+  font-size: 16px; /* Размер шрифта 16 пикселей */
+  color: #333; /* Цвет текста */
+}
+/*
+h1 { 
+  text-align: center;
+  font-size: 70px; 
+  color: #646464;
+
+   
+} 
+h2{ 
+  text-align: center;
+  font-size: 40px; 
+  color: #646464;
+  font-weight: bold;
+
+  
+} 
+h3{ 
+  text-align: center; 
+  font-size: 20px; 
+  color: #646464;
+
+} 
+h4{ 
+  text-align: center; 
+  font-size: 18px; 
+  color: #646464;
+  
+} 
+p{ 
+  word-wrap: break-word;  Для более широкой совместимости 
+  overflow-wrap: break-word;  Альтернатива для новых браузеров 
+  font-weight: normal;
+  font-size: 16px; 
+  text-align: justify; 
+  color: #333; 

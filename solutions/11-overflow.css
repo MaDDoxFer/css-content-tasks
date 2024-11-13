@@ -22,7 +22,7 @@ small {
   padding: 1rem;
 
   /* BEGIN (write your solution here) */
-
+  overflow-y: scroll;
   /* END */
 
   background: #fff;
@@ -46,8 +46,10 @@ small {
   margin: 0;
 
   /* BEGIN (write your solution here) */
-
-  /* END */
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+    /* END */
 }
 
 .notifications-item p {

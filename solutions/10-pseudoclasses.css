@@ -19,5 +19,8 @@ body {
 }
 
 /* BEGIN (write your solution here) */
-
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even) {
+  background: #f1d9b5;
+}
 /* END */

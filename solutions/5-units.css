@@ -1,48 +1,66 @@
 html {
-  /* BEGIN (write your solution here) */
-
-  /* END */
+  background: #1d2026;
+  line-height: 1.5;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #8a94a7;
+  font-size: 18px;
 }
 
 body {
+  padding: 0;
   display: flex;
-  align-items: center;
   justify-content: center;
-
-  /* BEGIN (write your solution here) */
-
-  /* END */
+  height: 100vh;
+  align-items: center;
+  margin: 0;
+  width: 100vw;
 }
 
-h1,
-h2,
-h3 {
-  /* BEGIN (write your solution here) */
-
-  /* END */
+h1, h2, h3 {
+  margin: 0;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 ul {
-  /* BEGIN (write your solution here) */
-
-  /* END */
+  padding-bottom: 18px;
+  margin: 0;
+  padding-top: 18px;
 }
 
-/* BEGIN (write your solution here) */
+.card {
+  padding: 2.5rem 2rem;
+  background: #2c3039;
+  width: 300px;
+}
 
-/* END */
+.card-list {
+  font-size: 14px;
+}
+
+.price {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.price span {
+  color: white;
+  font-size: 3em;
+}
+
+h3 {
+  color: white;
+  font-size: 0.9em;
+}
 
 .btn {
-  display: block;
-  padding: 1em 0;
-
-  color: white;
-
-  /* BEGIN (write your solution here) */
-
-  /* END */
-
   text-align: center;
+  color: white;
+  display: block;
+  font-size: 0.7rem;
+  padding: 1em 0;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -56,5 +74,5 @@ ul {
 }
 
 .border-bottom {
-  border-bottom: 1px solid rgb(138 148 167 / 24%);
+  border-bottom: 1px solid rgba(138, 148, 167, 0.24);
 }
